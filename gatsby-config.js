@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "gatsby-portfolio",
+    title: "Matthew Marineau | Frontend developer",
+    description: "Web developer based in Ottawa",
+    author: "Matthew Marineau",
+    siteUrl: "https://matou.io"
   },
+  pathPrefix: "/",
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-sharp",
@@ -30,9 +34,6 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
-    },
-    module.exports = {
-      pathPrefix: "/gatsby-portfolio",
     },
   ],
 };
