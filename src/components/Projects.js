@@ -34,11 +34,11 @@ const projects = [
     borderTop: "5px solid #f99e1a"
   },
   {
-    title: "Tinker",
-    description: "A chrome & Firefox extension that allows you to control visual elements of Twitch.tv",
-    image: "tinker.png",
-    github: "https://github.com/matoululu/Tinker",
-    live: "https://chrome.google.com/webstore/detail/tinker-for-twitch/aelphekojmlpcdoohblacpihddffflke",
+    title: "Oracle 5E",
+    description: "A quick reference tool for Dungeons & Dragons 5th edition",
+    image: "oracle.png",
+    github: "https://github.com/matoululu/oracle-5e",
+    live: "https://addons.mozilla.org/en-CA/firefox/addon/oracle-5e/",
     borderTop: "5px solid #593d95"
   },
   {
