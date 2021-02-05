@@ -1,0 +1,72 @@
+@import 'launchpad';
+
+// Overwrites
+
+.nav {
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: 100px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 798px) {
+    flex-direction: column;
+  }
+}
+
+.about__image {
+  margin-right: 2rem;
+
+  @media only screen and (max-width: 798px) {
+    margin-right: 0;
+  }
+
+  img {
+    @media only screen and (max-width: 798px) {
+      width: 100px;
+    }
+  }
+}
+
+.about__description p,
+.about__description h2 {
+  text-align: left;
+
+  @media only screen and (max-width: 798px) {
+    text-align: center;
+  }
+}
+
+.cards {
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: none;
+  width: calc(33.3333% - 1.5rem);
+
+  @media only screen and (max-width: 798px) {
+    width: calc(100% - 1.5rem);
+  }
+}
+
+.card__logo {
+  max-width: 64px;
+  margin-bottom: 1rem;
+}
+
+.card__buttons {
+  width: 100%;
+
+  .button {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: calc(50% - 1rem);
+  }
+}

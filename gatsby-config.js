@@ -31,5 +31,8 @@ module.exports = {
       },
       __key: "pages",
     },
+    module.exports = {
+      pathPrefix: "/gatsby-portfolio",
+    },
   ],
 };
