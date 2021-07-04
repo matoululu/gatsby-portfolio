@@ -54,7 +54,7 @@ const projects = [
 const Projects = () => {
   return (
     <section>
-      <h2>Personal Projects</h2>
+      <h2>Featured Projects</h2>
 
       <div className="cards">
         {projects.map(project => (
@@ -67,6 +67,10 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="cards__view-all">
+        <a className="button" href="https://github.com/matoululu?tab=repositories&type=source" target="_blank" rel="noreferrer">Check out all of my projects</a>
       </div>
     </section>
   )
